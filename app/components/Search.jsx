@@ -3,8 +3,8 @@
 import { useState } from "react";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
-import SearchResult from "./Searchresult";
 import { useDebounce } from "../hooks/useDebounce";
+import SearchResult from "./SearchResult";
 
 const Search = ({ docs }) => {
   const [searchResult, setSearchResult] = useState([]);
