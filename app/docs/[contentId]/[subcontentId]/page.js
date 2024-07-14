@@ -1,7 +1,7 @@
 import ContentDisplay from "@/app/components/ContentDisplay";
 
-const SubContentPage = ({ params: { subContentId } }) => {
-  return <ContentDisplay id={subContentId} />;
+const SubContentPage = ({ params: { subcontentId } }) => {
+  return <ContentDisplay id={subcontentId} />;
 };
 
 export default SubContentPage;
